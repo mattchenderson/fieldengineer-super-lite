@@ -20,6 +20,18 @@ namespace FieldEngineer_super_lite_server
                 .UseDefaultConfiguration()
                 .ApplyTo(config);
 
+            //new MobileAppConfiguration()
+            //    .AddTables(
+            //        new MobileAppTableConfiguration()
+            //            .MapTableControllers()
+            //            .AddEntityFramework())
+            //    .MapApiControllers()
+            //    .MapLegacyCrossDomainController()
+            //    .AddMobileAppHomeController()
+            //    .AddAppServiceAuthentication()
+            //    .AddPushNotifications()
+            //    .ApplyTo(config);
+
             // To display errors in the browser during development, uncomment the following
             // line. Comment it out again when you deploy your service for production use.
             // config.IncludeErrorDetailPolicy = IncludeErrorDetailPolicy.Always;
